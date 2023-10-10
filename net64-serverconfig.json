@@ -78,7 +78,7 @@
         "Placeholder": "false",
         "Suffix": "",
         "Hidden": false,
-        "SkipIfEmpty": false,
+        "SkipIfEmpty": true,
         "EnumValues": {
             "true": "True",
             "false": "False"
@@ -98,7 +98,7 @@
         "Placeholder": "",
         "Suffix": "",
         "Hidden": false,
-        "SkipIfEmpty": false,
+        "SkipIfEmpty": true,
         "EnumValues": {}
     },
     {
@@ -132,7 +132,7 @@
         "Placeholder": "",
         "Suffix": "",
         "Hidden": false,
-        "SkipIfEmpty": false,
+        "SkipIfEmpty": true,
         "EnumValues": {}
     },
     {
@@ -166,7 +166,7 @@
         "Placeholder": "",
         "Suffix": "",
         "Hidden": false,
-        "SkipIfEmpty": false,
+        "SkipIfEmpty": true,
         "EnumValues": {}
     }
 ]
