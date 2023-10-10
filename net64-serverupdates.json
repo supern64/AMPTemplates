@@ -1,0 +1,41 @@
+[
+    {
+        "UpdateStageName": "Download Net64+ (Linux)",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://github.com/Tarnadas/net64plus-server/releases/download/2.4.0/net64plus-server_2.4.0_linux-x64.tar.gz",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Download Net64+ (Windows)",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://github.com/Tarnadas/net64plus-server/releases/download/2.4.0/net64plus-server_2.4.0_win32-x64.tar.gz",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Set Net64+ Server As Executable",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "SetExecutableFlag",
+        "UpdateSourceArgs": "net64plus-server_2.4.0_linux-x64",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Generate Initial Configuration",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "StartApplication",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]
